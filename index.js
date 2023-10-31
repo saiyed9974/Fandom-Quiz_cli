@@ -17,7 +17,7 @@ function play(question,answer){
  
 }
 
-var questions = [{question:'What is volatility?',answer:'price swings' },{question:'Define short selling',answer:'Betting down'},{question:'What is portfolio diversification?',answer:'risk spread'},{question:'What does IPO stand for?', answer:'public offering'},{question:'What is market order?',answer:'Immediate trade'}];
+var questions = [{question:'Who played Veeru?',answer:'Dharmendra' },{question:'Whats the name of the village?',answer:'Ramgarh'},{question:'Who played Iqbalchacha role?',answer:'A.K.Hungal'},{question:'Who played Basanti?', answer:'Hema Malini'},{question:'Kitne Aadmi the?',answer:'Do'}];
 for(var i = 0;i < questions.length;i++){
   var currentQuestion = questions[i];
   play(currentQuestion.question,currentQuestion.answer)
